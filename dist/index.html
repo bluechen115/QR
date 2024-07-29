@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body {
+      display: flex;
+      flex-direction: column;
+    }
+    .moonTitle{
+      text-align: center;
+    }
+    .moonContents{
+      display: flex;
+      justify-content: center;
+    }
+    .moonURLInput{
+      width: 15rem;
+    }
+    .moonContentRight label{
+      display: flex;
+    }
+    .moonContentRight div {
+      padding: 0.5rem;
+    }</style><title>MM QRCode</title><script defer="defer" src="bundle.js"></script></head><body><h1 class="moonTitle">MM's QR Code Creator</h1><div class="moonContents"><div class="moonContentLeft"><img id="image" alt=""/></div><div class="moonContentRight"><div><label for="urlInput">URL</label> <input class="moonURLInput" id="urlInput" name="urlInput" value="https://google.com"/></div><div><label for="logoImage">Logo Image</label> <select id="logoImage" name="logoImage"><option value="puppy_01.png">Logo #1</option><option value="puppy_02.png">Logo #2</option><option value="puppy_03.png">Logo #3</option></select></div><div><label for="logoBgColor">Logo Background Color</label> <input type="color" id="logoBgColor" name="logoBgColor" value="#ffffff"/></div><div><label for="logoRadius">Logo Radius</label> <input type="number" min="1" max="100" id="logoRadius" name="logoRadius" value="5"/></div><div><label for="dotsColor">Dots Color</label> <input type="color" id="dotsColor" name="dotsColor" value="#000000"/></div><div><label for="dotsType">Dots Type</label> <select id="dotsType" name="dotsType"><option value="dot">Dot</option><option value="dot-small">Dot Small</option><option value="tile">Tile</option><option value="rounded">Rounded</option><option value="square">Square</option><option value="diamond">Diamond</option><option value="star">Star</option><option value="fluid">Fluid</option><option value="fluid-line">Fluid Line</option><option value="stripe">Stripe</option><option value="stripe-row">Stripe Row</option><option value="stripe-column">Stripe Column</option></select></div><div><label for="cornerColor">Corner Color</label> <input type="color" id="cornerColor" name="cornerColor" value="#000000"/></div><div><label for="cornerType">Corner Type</label> <select id="cornerType" name="cornerType"><option value="square">Square</option><option value="rounded">Rounded</option><option value="circle">Circle</option><option value="rounded-circle">Rounded Circle</option><option value="circle-rounded">Circle Rounded</option><option value="circle-star">Circle Star</option><option value="circle-diamond">Circle Diamond</option></select></div><div><label for="downloadButton">QR Code Download</label> <input id="downloadButton" name="downloadButton" type="button" value="Download"/></div></div></div></body></html>
