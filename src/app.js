@@ -9,14 +9,10 @@ let qrcodeConfg = {
   //   download: true,
   image: document.getElementById('image'),
   logo: {    
-    src: 'public/image/puppy_01.png',    
+    //src: 'public/image/puppy_01.png',    
+    src: 'puppy_01.png',
     bgColor: 'transparent',
     borderRadius: 5,    
-  //   borderRadius?: number;
-  //   borderColor?: string;
-  //   bgColor?: string;
-  //   crossOrigin?: string;
-  //   borderWidth?: number;
   },
   dotsOptions: {
     //type: 'stripe-column', //'dot' | 'dot-small' | 'tile' | 'rounded' | 'square' | 'diamond' | 'star' | 'fluid' | 'fluid-line' | 'stripe' | 'stripe-row' | 'stripe-column'
