@@ -77,7 +77,8 @@ cornerType.addEventListener('change', (event)=>{
 });
 
 logoImage.addEventListener('change', (event)=>{  
-  var sSrc = `public/image/${event.target.value}`;
+  //var sSrc = `public/image/${event.target.value}`;
+  var sSrc = event.target.value;
   qrcodeConfg.logo.src = sSrc;
   createQrCodeWithLogo();
 });
